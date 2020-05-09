@@ -1,0 +1,54 @@
+%
+% Copyright(c) 2010-2020 Pedro Henrique Penna <pedrohenriquepenna@gmail.com>
+%
+
+\documentclass{cls/bredelebeamer}
+
+% Language
+\usepackage[english]{babel}
+
+% PDF Bookmarks
+\hypersetup{%
+    pdfauthor   = { Pedro Henrique Penna},
+    pdftitle    = { Title },
+    pdfkeywords = { Keyworkd A; Keyword B; Keyword C; Keyword D },
+    pdfproducer = { LaTeX },
+    pdfcreator  = { pdflatex }
+}
+
+
+% Title
+\title[Short Title]{%
+	Title
+}
+
+% Subtitle
+\subtitle{Subtitle}
+
+% Authors
+\author[Pedro Henrique Penna]{%
+	Pedro Henrique Penna\\
+	\href{mailto:pedro.penna@sga.pucminas.br}{\texttt{pedro.penna@sga.pucminas.br}}
+}
+
+% Affiliations
+\institute[]{
+	Name of the Course\\
+	Computer Science Deparment\\
+	\pucminas
+}
+
+% Presentation Date
+\date{}
+
+\logo{}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+
+\begin{document}
+
+	\input{slides/0-cover}
+	\input{slides/1-introduction}
+	\input{slides/9-references}
+
+\end{document}
