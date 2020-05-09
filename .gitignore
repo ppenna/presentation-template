@@ -1,0 +1,24 @@
+# Vim
+*.swp
+*.swo
+
+# LaTeX
+presentation/*.acn
+presentation/*.aux
+presentation/*.bbl
+presentation/*.bcf
+presentation/*.blg
+presentation/*-blx.bib
+presentation/*.fdb_latexmk
+presentation/*.fls
+presentation/*.glo
+presentation/*.gz
+presentation/*.out
+presentation/*.ist
+presentation/*.log
+presentation/*.nav
+presentation/*.pdf
+presentation/*.snm
+presentation/*.toc
+presentation/*.vrb
+presentation/*.xml
