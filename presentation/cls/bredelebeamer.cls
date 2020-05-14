@@ -214,22 +214,6 @@ showtabs=false,
 \setbeamerfont{footline}{series={\mdseries},parent=structure}
 \setbeamerfont{footline}{size={\scriptsize},parent=structure}
 
-
-%utilise la couleur Beamer : "example text" pour la couleur du texte
-\newcommand{\exemple}[1]{{\color{example text.fg} #1}}
-
-
-\usepackage{etoolbox}
-\AtBeginEnvironment{exampleblock}{%
-  \setbeamercolor{itemize item}{fg=exampleTitleBlockColor!70}
-}
-\AtBeginEnvironment{alertblock}{%
-  \setbeamercolor{itemize item}{fg=alertTitleBlockColor!70}
-}
-\AtBeginEnvironment{block}{%
-  \setbeamercolor{itemize item}{fg=normalTitleBlockColor!70}
-}
-
 %===============================================================================
 
 % Null Vertical Space
