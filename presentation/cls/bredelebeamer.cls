@@ -23,6 +23,7 @@
 \graphicspath{{./img/}}
 \DeclareGraphicsExtensions{.pdf,.jpeg,.png,.jpg}
 \usepackage{subcaption}
+\usepackage{transparent}
 
 % References
 \usepackage[backend=bibtex,citestyle=authoryear]{biblatex}
